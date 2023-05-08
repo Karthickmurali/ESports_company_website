@@ -1,0 +1,70 @@
+body{
+    background: rgb(251, 239, 8);
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("https://res.cloudinary.com/dtbvgiown/image/upload/v1674028965/photo-1511512578047-dfb367046420_moiugx.jpg"); 
+    background-attachment: fixed;
+    margin:0;
+    font-family: 'poppins',sans-serif;
+}
+.font-register{
+	color: #34c6eb;
+}
+
+#form{
+    width: 400px;
+    margin: 20vh auto 0 auto;
+    border: 5px solid violet;
+    border-radius: 5px;
+    padding: 30px;
+    background-image: cross-fade(12px) url(../MEDIA/Indian_Premier_League_Official_Logo.svg.png) ;
+}
+
+h1{
+    text-align: center;
+    color: #792099;
+}
+#input{
+    background-color: #792099;
+    color: wheat;
+    border: 1px solid #792099;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.input-group input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid rgb(34,193,195);
+}
+
+.input-group input:focus{
+    outline: 0;
+}
+
+.error{
+    color: rgb(242,18,19);
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.input.group.success input{
+    border-color: #0cc477;
+}
+
+.input-group.error input{
+    border-color: rgb(206,67,67);
+}
+
+.btn:hover{
+    cursor: pointer;
+    text-decoration: aquamarine ;
+}
